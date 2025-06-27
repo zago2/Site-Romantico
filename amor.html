@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site do Amor</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, #ff6b6b, #ff9a9e);
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+        }
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            margin-top: 20vh;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 25px;
+            background-color: #ff4d4d;
+            color: #fff;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        button:hover {
+            background-color: #ff3333;
+            transform: scale(1.1);
+        }
+        footer {
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 1em;
+            background-color: rgba(255, 255, 255, 0.1);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem-vinda ao Site do Amor</h1>
+    <button onclick="window.location.href='soulindo.html'">Clique aqui</button>
+    <footer>Criado pelo Zago lindo</footer>
+</body>
+</html>
